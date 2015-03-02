@@ -19,7 +19,6 @@ module.exports = PostGetter =
 
   getPost: (postId, complete) ->
     url = @apiURL(postId)
-    console.log "getting #{url}"
     $.ajax
       url: url
       dataType: "jsonp"
