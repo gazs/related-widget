@@ -29,7 +29,7 @@ module.exports = WidgetBuilder =
         post_id = PostGetter.postId(link)
         @post_ids.push post_id
         iframe = """
-            <iframe src="#{window.location.origin}?posts=#{@post_ids.reverse().join(',')}" width="100%" height="240" class="custom aspect recommended"></iframe>
+            <iframe src="#{window.location.href}?posts=#{@post_ids.reverse().join(',')}" width="100%" height="240" class="custom aspect recommended"></iframe>
           """
         $('.result').html(iframe)
         $('.embed').val(iframe)
