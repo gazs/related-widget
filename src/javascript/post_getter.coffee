@@ -4,6 +4,7 @@ module.exports = PostGetter =
   api: "http://kinja.com/api/core/post"
 
   isLink: (link) ->
+    link = @cleanLink(link)
     @newLink(link) or @oldLink(link)
   newLink: (link) ->
     link.match(/-(\d+)$/)
