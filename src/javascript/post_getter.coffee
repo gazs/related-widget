@@ -10,7 +10,7 @@ module.exports = PostGetter =
   oldLink: (link) ->
     link.match(/\.com\/\d+\//)
   cleanLink: (link) ->
-    link.split(/[?#]/)[0].split(/\/$/)[0]
+    link.split(/[+?#]/)[0].split(/\/$/)[0]
   postId: (link) ->
     link = @cleanLink(link)
     if @newLink(link)
