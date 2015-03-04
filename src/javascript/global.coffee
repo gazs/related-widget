@@ -5,11 +5,15 @@ if window.location.search is ""
   WidgetBuilder = require './widget_builder'
   WidgetBuilder.render()
 else
-  post_ids = window.location.search.match(/\?posts=(.*)/)[1].split(',')
+  post_ids = window.location.search.match(/\?posts=([\d,]+)/)[1].split(',')
+  if window.location.search.match(/&title=(.*)/)
+    title = decodeURIComponent window.location.search.match(/&title=(.*)/)[1]
+  else
+    title = "Recommended stories"
   PostGetter = require './post_getter'
   PostView = require './post_view'
 
-  PostView.init()
+  PostView.init(title)
   for post_id in post_ids
     PostGetter.getPost post_id, (post) ->
       PostView.render(post)
