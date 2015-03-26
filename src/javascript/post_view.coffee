@@ -13,7 +13,7 @@ module.exports = PostView =
     img = post.data.facebookImage or post.data.parsedBody.facebookImage
     $('.stories').append """
         <div class="story">
-          <a href="#{post.data.permalink}" target="_blank">
+          <a href="#{post.data.permalink}" target="_blank" onclick=recommendedClick("#{post.data.permalink}")>
             <img src="#{img_url}/#{img.id}.#{img.format}" />
             <h5 class="headline">
               #{post.data.headline}
