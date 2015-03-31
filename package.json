@@ -17,7 +17,7 @@
     "and available to browserify-shim as 'plugin' on line 30."
   ],
   "browser": {
-    "underscore": "backbone/node_modules/underscore",
+    "underscore": "underscore",
     "plugin": "./src/javascript/vendor/jquery-plugin.js"
   },
   "browserify": {
@@ -73,6 +73,7 @@
   },
   "dependencies": {
     "backbone": "~1.1.2",
+    "underscore": "^1.8.2",
     "jquery": "~2.1.0"
   }
 }

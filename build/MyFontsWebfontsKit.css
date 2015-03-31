@@ -1,145 +1,21 @@
-/* @license
- * MyFonts Webfont Build ID 2424012, 2012-12-04T12:33:25-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: Proxima Nova A Cond Light by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-light/
- * 
- * Webfont: Proxima Nova S Cond Light by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-light/
- * 
- * Webfont: Proxima Nova S Cond Semibold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-semibold/
- * 
- * Webfont: Proxima Nova A Cond Semibold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-semibold/
- * 
- * Webfont: Proxima Nova A Cond Thin by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-thin/
- * 
- * Webfont: Proxima Nova S Cond Thin by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-thin/
- * 
- * Webfont: Proxima Nova S Cond Extrabold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-extrabld/
- * 
- * Webfont: Proxima Nova S Cond Bold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-bold/
- * 
- * Webfont: Proxima Nova A Cond Extrabold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-extrabld/
- * 
- * Webfont: Proxima Nova S Cond Regular by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-regular/
- * 
- * Webfont: Proxima Nova A Cond Black by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-black/
- * 
- * Webfont: Proxima Nova A Cond Bold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-bold/
- * 
- * Webfont: Proxima Nova S Cond Black by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-black/
- * 
- * Webfont: Proxima Nova A Cond Regular by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-regular/
- * 
- * Webfont: Proxima Nova Cond Light by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-light/
- * 
- * Webfont: Proxima Nova Cond Semibold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-semibold/
- * 
- * Webfont: Proxima Nova Cond Thin by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-thin/
- * 
- * Webfont: Proxima Nova Cond Extrabold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-extrabld/
- * 
- * Webfont: Proxima Nova Cond Regular by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-regular/
- * 
- * Webfont: Proxima Nova Cond Black by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-black/
- * 
- * Webfont: Proxima Nova Cond Bold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-bold/
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2424012
- * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
- * 
- * © 2012 Bitstream Inc
-*/
-
-
-@import url("//hello.myfonts.net/count/24fccc");
-
-  
-@font-face {font-family: 'ProximaNovaACond-Light';src: url('webfonts/24FCCC_0_0.eot');src: url('webfonts/24FCCC_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_0_0.woff') format('woff'),url('webfonts/24FCCC_0_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaSCond-Light';src: url('webfonts/24FCCC_1_0.eot');src: url('webfonts/24FCCC_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_1_0.woff') format('woff'),url('webfonts/24FCCC_1_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaSCond-Semibold';src: url('webfonts/24FCCC_2_0.eot');src: url('webfonts/24FCCC_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_2_0.woff') format('woff'),url('webfonts/24FCCC_2_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaACond-Semibold';src: url('webfonts/24FCCC_3_0.eot');src: url('webfonts/24FCCC_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_3_0.woff') format('woff'),url('webfonts/24FCCC_3_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaACond-Thin';src: url('webfonts/24FCCC_4_0.eot');src: url('webfonts/24FCCC_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_4_0.woff') format('woff'),url('webfonts/24FCCC_4_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaSCond-Thin';src: url('webfonts/24FCCC_5_0.eot');src: url('webfonts/24FCCC_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_5_0.woff') format('woff'),url('webfonts/24FCCC_5_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaSCond-Extrabld';src: url('webfonts/24FCCC_6_0.eot');src: url('webfonts/24FCCC_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_6_0.woff') format('woff'),url('webfonts/24FCCC_6_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaSCond-Bold';src: url('webfonts/24FCCC_7_0.eot');src: url('webfonts/24FCCC_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_7_0.woff') format('woff'),url('webfonts/24FCCC_7_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaACond-Extrabld';src: url('webfonts/24FCCC_8_0.eot');src: url('webfonts/24FCCC_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_8_0.woff') format('woff'),url('webfonts/24FCCC_8_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaSCond-Regular';src: url('webfonts/24FCCC_9_0.eot');src: url('webfonts/24FCCC_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_9_0.woff') format('woff'),url('webfonts/24FCCC_9_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaACond-Black';src: url('webfonts/24FCCC_A_0.eot');src: url('webfonts/24FCCC_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_A_0.woff') format('woff'),url('webfonts/24FCCC_A_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaACond-Bold';src: url('webfonts/24FCCC_B_0.eot');src: url('webfonts/24FCCC_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_B_0.woff') format('woff'),url('webfonts/24FCCC_B_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaSCond-Black';src: url('webfonts/24FCCC_C_0.eot');src: url('webfonts/24FCCC_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_C_0.woff') format('woff'),url('webfonts/24FCCC_C_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaACond-Regular';src: url('webfonts/24FCCC_D_0.eot');src: url('webfonts/24FCCC_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_D_0.woff') format('woff'),url('webfonts/24FCCC_D_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaCond-Light';src: url('webfonts/24FCCC_E_0.eot');src: url('webfonts/24FCCC_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_E_0.woff') format('woff'),url('webfonts/24FCCC_E_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaCond-Semibold';src: url('webfonts/24FCCC_F_0.eot');src: url('webfonts/24FCCC_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_F_0.woff') format('woff'),url('webfonts/24FCCC_F_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaCond-Thin';src: url('webfonts/24FCCC_10_0.eot');src: url('webfonts/24FCCC_10_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_10_0.woff') format('woff'),url('webfonts/24FCCC_10_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaCond-Extrabld';src: url('webfonts/24FCCC_11_0.eot');src: url('webfonts/24FCCC_11_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_11_0.woff') format('woff'),url('webfonts/24FCCC_11_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaCond-Regular';src: url('webfonts/24FCCC_12_0.eot');src: url('webfonts/24FCCC_12_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_12_0.woff') format('woff'),url('webfonts/24FCCC_12_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaCond-Black';src: url('webfonts/24FCCC_13_0.eot');src: url('webfonts/24FCCC_13_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_13_0.woff') format('woff'),url('webfonts/24FCCC_13_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNovaCond-Bold';src: url('webfonts/24FCCC_14_0.eot');src: url('webfonts/24FCCC_14_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FCCC_14_0.woff') format('woff'),url('webfonts/24FCCC_14_0.ttf') format('truetype');}
- 
+@font-face{font-family:ProximaNovaACond-Light;src:url(webfonts/24FCCC_0_0.eot);src:url(webfonts/24FCCC_0_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_0_0.woff) format('woff'),url(webfonts/24FCCC_0_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaSCond-Light;src:url(webfonts/24FCCC_1_0.eot);src:url(webfonts/24FCCC_1_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_1_0.woff) format('woff'),url(webfonts/24FCCC_1_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaSCond-Semibold;src:url(webfonts/24FCCC_2_0.eot);src:url(webfonts/24FCCC_2_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_2_0.woff) format('woff'),url(webfonts/24FCCC_2_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaACond-Semibold;src:url(webfonts/24FCCC_3_0.eot);src:url(webfonts/24FCCC_3_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_3_0.woff) format('woff'),url(webfonts/24FCCC_3_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaACond-Thin;src:url(webfonts/24FCCC_4_0.eot);src:url(webfonts/24FCCC_4_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_4_0.woff) format('woff'),url(webfonts/24FCCC_4_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaSCond-Thin;src:url(webfonts/24FCCC_5_0.eot);src:url(webfonts/24FCCC_5_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_5_0.woff) format('woff'),url(webfonts/24FCCC_5_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaSCond-Extrabld;src:url(webfonts/24FCCC_6_0.eot);src:url(webfonts/24FCCC_6_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_6_0.woff) format('woff'),url(webfonts/24FCCC_6_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaSCond-Bold;src:url(webfonts/24FCCC_7_0.eot);src:url(webfonts/24FCCC_7_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_7_0.woff) format('woff'),url(webfonts/24FCCC_7_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaACond-Extrabld;src:url(webfonts/24FCCC_8_0.eot);src:url(webfonts/24FCCC_8_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_8_0.woff) format('woff'),url(webfonts/24FCCC_8_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaSCond-Regular;src:url(webfonts/24FCCC_9_0.eot);src:url(webfonts/24FCCC_9_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_9_0.woff) format('woff'),url(webfonts/24FCCC_9_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaACond-Black;src:url(webfonts/24FCCC_A_0.eot);src:url(webfonts/24FCCC_A_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_A_0.woff) format('woff'),url(webfonts/24FCCC_A_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaACond-Bold;src:url(webfonts/24FCCC_B_0.eot);src:url(webfonts/24FCCC_B_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_B_0.woff) format('woff'),url(webfonts/24FCCC_B_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaSCond-Black;src:url(webfonts/24FCCC_C_0.eot);src:url(webfonts/24FCCC_C_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_C_0.woff) format('woff'),url(webfonts/24FCCC_C_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaACond-Regular;src:url(webfonts/24FCCC_D_0.eot);src:url(webfonts/24FCCC_D_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_D_0.woff) format('woff'),url(webfonts/24FCCC_D_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaCond-Light;src:url(webfonts/24FCCC_E_0.eot);src:url(webfonts/24FCCC_E_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_E_0.woff) format('woff'),url(webfonts/24FCCC_E_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaCond-Semibold;src:url(webfonts/24FCCC_F_0.eot);src:url(webfonts/24FCCC_F_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_F_0.woff) format('woff'),url(webfonts/24FCCC_F_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaCond-Thin;src:url(webfonts/24FCCC_10_0.eot);src:url(webfonts/24FCCC_10_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_10_0.woff) format('woff'),url(webfonts/24FCCC_10_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaCond-Extrabld;src:url(webfonts/24FCCC_11_0.eot);src:url(webfonts/24FCCC_11_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_11_0.woff) format('woff'),url(webfonts/24FCCC_11_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaCond-Regular;src:url(webfonts/24FCCC_12_0.eot);src:url(webfonts/24FCCC_12_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_12_0.woff) format('woff'),url(webfonts/24FCCC_12_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaCond-Black;src:url(webfonts/24FCCC_13_0.eot);src:url(webfonts/24FCCC_13_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_13_0.woff) format('woff'),url(webfonts/24FCCC_13_0.ttf) format('truetype')}
+@font-face{font-family:ProximaNovaCond-Bold;src:url(webfonts/24FCCC_14_0.eot);src:url(webfonts/24FCCC_14_0.eot?#iefix) format('embedded-opentype'),url(webfonts/24FCCC_14_0.woff) format('woff'),url(webfonts/24FCCC_14_0.ttf) format('truetype')}
