@@ -44,7 +44,7 @@ module.exports = {
       // Additional file extentions to make optional
       extensions: ['.coffee', '.hbs'],
       // list of modules to make require-able externally
-      require: ['jquery', 'underscore']
+      require: ['jquery']
     }]
   },
   production: {
