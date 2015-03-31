@@ -14,6 +14,6 @@ else
   PostView = require './post_view'
 
   PostView.init(title)
-  for post_id in post_ids
-    PostGetter.getPost post_id, (post) ->
+  PostGetter.getPosts post_ids.reverse(), (posts) ->
+    for post in posts
       PostView.render(post)

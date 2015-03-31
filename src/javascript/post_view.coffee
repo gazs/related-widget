@@ -10,13 +10,13 @@ module.exports = PostView =
       </div>
     """
   render: (post) ->
-    img = post.data.facebookImage or post.data.parsedBody.facebookImage
+    img = post.facebookImage or post.parsedBody.facebookImage
     $('.stories').append """
         <div class="story">
-          <a href="#{post.data.permalink}" target="_blank" onclick=recommendedClick("#{post.data.permalink}")>
+          <a href="#{post.permalink}" target="_blank" onclick=recommendedClick("#{post.permalink}")>
             <img src="#{img_url}/#{img.id}.#{img.format}" />
             <h5 class="headline">
-              #{post.data.headline}
+              #{post.headline}
             </h5>
           </a>
         </div>
