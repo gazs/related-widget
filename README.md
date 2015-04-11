@@ -12,7 +12,7 @@ gulp production
 
 **When deploying to CloudFront:**
   1. Replace files
-  2. Change permissions
+  2. Change permissions (world readable)
   3. Invalidate cache
 
 **Invalidations:**
