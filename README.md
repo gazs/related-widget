@@ -10,7 +10,15 @@ gulp
 gulp production
 ```
 
-When deploying to CloudFront:
+**When deploying to CloudFront:**
 1. Replace files
 2. Change permissions
 3. Invalidate cache
+
+**Invalidations:**
+```
+/related-widget/index.html
+/related-widget/index.html?*
+/related-widget/global.js
+/related-widget/app.css
+```

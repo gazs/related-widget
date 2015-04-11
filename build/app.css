@@ -13,8 +13,8 @@ body img{max-width:100%}
 body a{text-decoration:none;color:#000}
 body a h5{font-family:ProximaNovaCond-Semibold;font-size:15px;line-height:18px;margin-top:0;padding-top:10px}
 body a:hover{text-decoration:underline}
-@media only screen and (max-width:500px){body h4{font-size:16px;margin:0 0 11px;padding-bottom:4px}
-body div.stories div.story h5{font-size:13px;line-height:15px;padding-top:7px}
+@media only screen and (max-width:500px){body h4{font-size:16px;margin:0 0 11px;font-weight:400;padding-bottom:4px}
+body div.stories div.story h5{font-size:13px;font-weight:400;line-height:15px;padding-top:7px}
 body div.stories div.story:not(:first-child):not(:last-child){padding:0 3.5px}
 body div.stories div.story:last-child{padding-right:0;padding-left:7px}
 body div.stories div.story:first-child{padding-left:0;padding-right:7px}}
