@@ -8,7 +8,7 @@ body div.story{min-height:200px;max-width:33.3%;display:inline-block;padding:0;f
 body div.story:not(:first-child):not(:last-child){padding:0 6.5px}
 body div.story:last-child{padding-right:0;padding-left:13px}
 body div.story:first-child{padding-left:0;padding-right:13px}
-body h4{color:#000;font-family:ProximaNovaCond-Semibold;font-size:20px;border-bottom:1px solid #ddd;margin:0 0 18px;padding-bottom:11px}
+body h4{color:#000;font-family:ProximaNovaCond-Semibold;font-size:20px;border-bottom:1px solid #ddd;margin:0 0 10px;padding-bottom:4px}
 body img{max-width:100%}
 body a{text-decoration:none;color:#000}
 body a h5{font-family:ProximaNovaCond-Semibold;font-size:15px;line-height:18px;margin-top:0;padding-top:10px}
