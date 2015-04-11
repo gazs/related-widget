@@ -2,6 +2,13 @@
 // @import "typography";
 // @import "iframes";
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,34 +24,42 @@ body {
   }
   div.story {
     min-height: 200px;
-    max-width: 32.2%;
+    max-width: 33.3%;
     display: inline-block;
-    margin-right: 10px;
+    padding: 0;
     float: left;
+    &:not(:first-child):not(:last-child) {
+      padding: 0 6.5px;
+    }
     &:last-child {
-      margin-right: 0;
+      padding-right: 0px;
+      padding-left: 13px;
+    }
+    &:first-child {
+      padding-left: 0px;
+      padding-right: 13px;
     }
   }
   h4 {
-    color: #aaa;
+    color: black;
     font-family: ProximaNovaCond-Semibold;
     font-size: 20px;
     border-bottom: 1px solid #ddd;
-    margin: 0 0 10px;
-    padding-bottom: 5px;
+    margin: 0 0 18px;
+    padding-bottom: 11px;
   }
   img {
     max-width: 100%;
   }
   a {
     text-decoration: none;
-    color: #333;
+    color: black;
     h5 {
       font-family: ProximaNovaCond-Semibold;
       font-size: 15px;
       line-height: 18px;
       margin-top: 0;
-      padding-top: 5px;
+      padding-top: 10px;
     }
     &:hover {
       text-decoration: underline;
@@ -52,16 +67,35 @@ body {
   }
 }
 @media only screen and (max-width : 590px) {
-body {
-    div.story {
-      max-width: 31% !important;
-    }
-  }
+// body {
+//   }
 }
 @media only screen and (max-width : 500px) {
 body {
-    div.story {
-      max-width: 31% !important;
+    h4 {
+      font-size: 16px;
+      margin: 0 0 11px;
+      padding-bottom: 4px;
+    }
+    div.stories {
+      div.story {
+        h5 {
+          font-size: 13px;
+          line-height: 15px;
+          padding-top: 7px;
+        }
+        &:not(:first-child):not(:last-child) {
+          padding: 0 3.5px;
+        }
+        &:last-child {
+          padding-right: 0px;
+          padding-left: 7px;
+        }
+        &:first-child {
+          padding-left: 0px;
+          padding-right: 7px;
+        }
+      }
     }
   }
 }

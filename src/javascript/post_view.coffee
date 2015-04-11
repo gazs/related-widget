@@ -5,8 +5,8 @@ img_url = "http://i.kinja-img.com/gawker-media/image/upload/c_fill,fl_progressiv
 module.exports = PostView =
   init: (title) ->
     $('body').append """
+      <h4>#{title}</h4>
       <div class="stories">
-        <h4>#{title}</h4>
       </div>
     """
   render: (post) ->
