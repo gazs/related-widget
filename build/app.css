@@ -18,7 +18,7 @@ body div.stories div.story h5{font-size:13px;font-weight:400;line-height:15px;pa
 body div.stories div.story:not(:first-child):not(:last-child){padding:0 3.5px}
 body div.stories div.story:last-child{padding-right:0;padding-left:7px}
 body div.stories div.story:first-child{padding-left:0;padding-right:7px}}
-@font-face{font-family:ProximaNovaCond-Semibold;src:url(http://x.kinja-static.com/assets/fonts/proxima/ProximaNovaCondBold-6e302c8978b1bd9d453fba318a1fa572.woff)}
+@font-face{font-family:ProximaNovaCond-Semibold;src:url(//x.kinja-static.com/assets/fonts/proxima/ProximaNovaCondBold-6e302c8978b1bd9d453fba318a1fa572.woff)}
 form{width:100%}
 input:focus{outline:0}
 input[type=text]{width:100%;margin:10px 0;padding:10px;font-size:15px}

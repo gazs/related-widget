@@ -1,8 +1,8 @@
 $ = require 'jquery'
 
 module.exports = PostGetter =
-  # api: "http://kinja.com/api/core/post"
-  api: "http://kinja.com/api/core/corepost/getList"
+  # api: "//kinja.com/api/core/post"
+  api: "//kinja.com/api/core/corepost/getList"
 
   isLink: (link) ->
     link = @cleanLink(link)
