@@ -12,7 +12,7 @@ module.exports = PostView =
   render: (post) ->
     if post.facebookImage?
       imgObj = post.facebookImage
-      img = "<img src=\"#{img_url}/#{imgObj.id}.#{imgObj.format}\" />"
+      img = "#{img_url}/#{imgObj.id}.#{imgObj.format}"
     else
       domain = post.permalinkHost.match(/https?:\/\/(\w+\.)?(\w+)\.com/)[2]
       img = "images/#{domain}_related.png"
