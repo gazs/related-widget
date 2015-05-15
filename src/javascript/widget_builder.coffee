@@ -9,7 +9,7 @@ module.exports = WidgetBuilder =
       <div class="builder">
       <div class="container">
         <form action="">
-          <input type="text" class="link_input" placeholder="Paste links..." />
+          <input type="text" class="link_input" placeholder="Paste a link..." />
         </form>
         <div class="result" contenteditable="true"></div>
         <input type="text" class="header_input" placeholder="Default header is 'Recommended stories'; to customize, enter text here and press 'Enter'" />
@@ -41,6 +41,7 @@ module.exports = WidgetBuilder =
           """
         $('.result').html(iframe)
         $('.embed').val(iframe)
-        $('.link_input').select()
-        # PostGetter.getPost link, (post) =>
-        #   debugger
+        # $('.link_input').select()
+        setTimeout ->
+          $('.link_input').val("").focus()
+        , 1000

@@ -1,29 +1,140 @@
-html{box-sizing:border-box}
-*,:after,:before{box-sizing:inherit}
-body{margin:0;padding:0}
-body div.builder{max-width:700px;margin:10px auto}
-body div.builder .container{max-width:100%}
-body div.stories{max-width:640px}
-body div.story{min-height:200px;max-width:33.3%;display:inline-block;padding:0;float:left}
-body div.story:not(:first-child):not(:last-child){padding:0 3.5px}
-body div.story:last-child{padding-right:0;padding-left:6.5px}
-body div.story:first-child{padding-left:0;padding-right:6.5px}
-body h4{color:#000;font-weight:400;font-family:ProximaNovaCond-Semibold;font-size:20px;border-bottom:1px solid #ddd;margin:0 0 10px;padding-bottom:4px}
-body img{max-width:100%}
-body a{text-decoration:none;color:#000}
-body a h5{font-family:ProximaNovaCond-Semibold;font-size:15px;line-height:18px;margin-top:0;padding-top:5px;padding-right:5px;font-weight:400}
-body a:hover{text-decoration:underline}
-@media only screen and (max-width:500px){body h4{font-size:16px;margin:0 0 10px;font-weight:400;padding-bottom:4px}
-body div.stories div.story h5{font-size:13px;font-weight:400;line-height:15px;padding-top:4px;padding-right:0}
-body div.stories div.story:not(:first-child):not(:last-child){padding:0 3.5px}
-body div.stories div.story:last-child{padding-right:0;padding-left:7px}
-body div.stories div.story:first-child{padding-left:0;padding-right:7px}}
-@font-face{font-family:ProximaNovaCond-Semibold;src:url(http://x.kinja-static.com/assets/fonts/proxima/ProximaNovaCondBold-6e302c8978b1bd9d453fba318a1fa572.woff)}
-form{width:100%}
-input:focus{outline:0}
-input[type=text]{width:100%;margin:10px 0;padding:10px;font-size:15px}
-iframe{border:none;width:100%}
-.result{border-top:rgba(0,0,0,.3) 1px dashed;border-bottom:rgba(0,0,0,.3) 1px dashed;height:auto;min-height:200px}
-.result:focus{outline:0}
-.embed{width:100%;border:none;margin-top:10px}
-.embed:focus{outline:0}
+/* line 5, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+html {
+  box-sizing: border-box; }
+
+/* line 8, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 12, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+body {
+  margin: 0;
+  padding: 0; }
+  /* line 15, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body div.builder {
+    max-width: 700px;
+    margin: 10px auto; }
+    /* line 18, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+    body div.builder .container {
+      max-width: 100%; }
+  /* line 22, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body div.stories {
+    max-width: 640px; }
+  /* line 25, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body div.story {
+    min-height: 200px;
+    max-width: 33.3%;
+    display: inline-block;
+    padding: 0;
+    float: left; }
+    /* line 31, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+    body div.story:not(:first-child):not(:last-child) {
+      padding: 0 3.5px; }
+    /* line 34, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+    body div.story:last-child {
+      padding-right: 0px;
+      padding-left: 6.5px; }
+    /* line 38, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+    body div.story:first-child {
+      padding-left: 0px;
+      padding-right: 6.5px; }
+  /* line 43, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body h4 {
+    color: black;
+    font-weight: normal;
+    font-family: ProximaNovaCond-Semibold;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 10px;
+    padding-bottom: 4px; }
+  /* line 52, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body img {
+    max-width: 100%; }
+  /* line 55, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body a {
+    text-decoration: none;
+    color: black; }
+    /* line 58, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+    body a h5 {
+      font-family: ProximaNovaCond-Semibold;
+      font-size: 15px;
+      line-height: 18px;
+      margin-top: 0;
+      padding-top: 5px;
+      padding-right: 5px;
+      font-weight: normal; }
+    /* line 67, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+    body a:hover {
+      text-decoration: underline; }
+
+@media only screen and (max-width: 500px) {
+  /* line 78, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body h4 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    font-weight: normal;
+    padding-bottom: 4px; }
+  /* line 86, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body div.stories div.story h5 {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 15px;
+    padding-top: 4px;
+    padding-right: 0px; }
+  /* line 93, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body div.stories div.story:not(:first-child):not(:last-child) {
+    padding: 0 3.5px; }
+  /* line 96, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body div.stories div.story:last-child {
+    padding-right: 0px;
+    padding-left: 7px; }
+  /* line 100, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  body div.stories div.story:first-child {
+    padding-left: 0px;
+    padding-right: 7px; } }
+
+@font-face {
+  font-family: 'ProximaNovaCond-Semibold';
+  src: url('http://x.kinja-static.com/assets/fonts/proxima/ProximaNovaCondBold-6e302c8978b1bd9d453fba318a1fa572.woff'); }
+
+/* line 110, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+form {
+  width: 100%; }
+
+/* line 115, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+input:focus {
+  outline: none; }
+
+/* line 119, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+input[type=text] {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 15px; }
+
+/* line 127, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+iframe {
+  border: none;
+  width: 100%; }
+
+/* line 132, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+.result {
+  border-top: rgba(0, 0, 0, 0.3) 1px dashed;
+  border-bottom: rgba(0, 0, 0, 0.3) 1px dashed;
+  height: auto;
+  min-height: 200px; }
+  /* line 137, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  .result:focus {
+    outline: none; }
+
+/* line 141, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+.embed {
+  width: 100%;
+  border: none;
+  margin-top: 10px; }
+  /* line 145, /Users/ap/code/labs/interactives/related-widget/src/sass/app.sass */
+  .embed:focus {
+    outline: none; }
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5zYXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFJQTtFQUNFLEFBQVk7OztBQUVkLEFBQUcsQUFBQyxBQUFTLEFBQUM7RUFDWixBQUFZOzs7QUFHZDtFQUNFLEFBQVE7RUFDUixBQUFTOztFQUNYLEFBQUssQUFBRztJQUNKLEFBQVc7SUFDWCxBQUFROztJQUNaLEFBQUssQUFBRyxBQUFTO01BQ1gsQUFBVzs7RUFHakIsQUFBSyxBQUFHO0lBQ0osQUFBVzs7RUFFZixBQUFLLEFBQUc7SUFDSixBQUFZO0lBQ1osQUFBVztJQUNYLEFBQVM7SUFDVCxBQUFTO0lBQ1QsQUFBTzs7SUFDWCxBQUFLLEFBQUcsQUFBTSxBQUFLLEFBQWEsQUFBSztNQUMvQixBQUFTOztJQUVmLEFBQUssQUFBRyxBQUFNO01BQ1IsQUFBZTtNQUNmLEFBQWM7O0lBRXBCLEFBQUssQUFBRyxBQUFNO01BQ1IsQUFBYztNQUNkLEFBQWU7O0VBR3JCLEFBQUs7SUFDRCxBQUFPO0lBQ1AsQUFBYTtJQUNiLEFBQWE7SUFDYixBQUFXO0lBQ1gsQUFBZTtJQUNmLEFBQVE7SUFDUixBQUFnQjs7RUFFcEIsQUFBSztJQUNELEFBQVc7O0VBRWYsQUFBSztJQUNELEFBQWlCO0lBQ2pCLEFBQU87O0lBQ1gsQUFBSyxBQUFFO01BQ0QsQUFBYTtNQUNiLEFBQVc7TUFDWCxBQUFhO01BQ2IsQUFBWTtNQUNaLEFBQWE7TUFDYixBQUFlO01BQ2YsQUFBYTs7SUFFbkIsQUFBSyxBQUFDO01BQ0EsQUFBaUI7O0FBUXZCOztFQUVBLEFBQUs7SUFDQyxBQUFXO0lBQ1gsQUFBUTtJQUNSLEFBQWE7SUFDYixBQUFnQjs7RUFJdEIsQUFBSyxBQUFHLEFBQVMsQUFBRyxBQUFPO0lBQ2pCLEFBQVc7SUFDWCxBQUFhO0lBQ2IsQUFBYTtJQUNiLEFBQWE7SUFDYixBQUFlOztFQUV6QixBQUFLLEFBQUcsQUFBUyxBQUFHLEFBQU0sQUFBSyxBQUFhLEFBQUs7SUFDdkMsQUFBUzs7RUFFbkIsQUFBSyxBQUFHLEFBQVMsQUFBRyxBQUFNO0lBQ2hCLEFBQWU7SUFDZixBQUFjOztFQUV4QixBQUFLLEFBQUcsQUFBUyxBQUFHLEFBQU07SUFDaEIsQUFBYztJQUNkLEFBQWU7OztFQU9iLEFBQWE7RUFBNEIsQUFBSzs7O0FBQzFEO0VBQ0UsQUFBTzs7O0FBSVQsQUFBSztFQUNELEFBQVM7OztBQUdiLEFBQUs7RUFFSCxBQUFPO0VBQ1AsQUFBUTtFQUNSLEFBQVM7RUFDVCxBQUFXOzs7QUFHYjtFQUNFLEFBQVE7RUFDUixBQUFPOzs7QUFHVDtFQUNFLEFBQTBCO0VBQzFCLEFBQTZCO0VBQzdCLEFBQVE7RUFDUixBQUFZOztFQUNkLEFBQU87SUFDSCxBQUFTOzs7QUFHYjtFQUNFLEFBQU87RUFDUCxBQUFRO0VBQ1IsQUFBWTs7RUFDZCxBQUFNO0lBQ0YsQUFBUyIsImZpbGUiOiJhcHAuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcInNjc3MtbWl4aW5zXCI7XG4vLyBAaW1wb3J0IFwidHlwb2dyYXBoeVwiO1xuLy8gQGltcG9ydCBcImlmcmFtZXNcIjtcblxuaHRtbCB7XG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG59XG4qLCAqOmJlZm9yZSwgKjphZnRlciB7XG4gIGJveC1zaXppbmc6IGluaGVyaXQ7XG59XG5cbmJvZHkge1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG4gIGRpdi5idWlsZGVyIHtcbiAgICBtYXgtd2lkdGg6IDcwMHB4O1xuICAgIG1hcmdpbjogMTBweCBhdXRvO1xuICAgIC5jb250YWluZXIge1xuICAgICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgIH1cbiAgfVxuICBkaXYuc3RvcmllcyB7XG4gICAgbWF4LXdpZHRoOiA2NDBweDtcbiAgfVxuICBkaXYuc3Rvcnkge1xuICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgIG1heC13aWR0aDogMzMuMyU7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgZmxvYXQ6IGxlZnQ7XG4gICAgJjpub3QoOmZpcnN0LWNoaWxkKTpub3QoOmxhc3QtY2hpbGQpIHtcbiAgICAgIHBhZGRpbmc6IDAgMy41cHg7XG4gICAgfVxuICAgICY6bGFzdC1jaGlsZCB7XG4gICAgICBwYWRkaW5nLXJpZ2h0OiAwcHg7XG4gICAgICBwYWRkaW5nLWxlZnQ6IDYuNXB4O1xuICAgIH1cbiAgICAmOmZpcnN0LWNoaWxkIHtcbiAgICAgIHBhZGRpbmctbGVmdDogMHB4O1xuICAgICAgcGFkZGluZy1yaWdodDogNi41cHg7XG4gICAgfVxuICB9XG4gIGg0IHtcbiAgICBjb2xvcjogYmxhY2s7XG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgICBmb250LWZhbWlseTogUHJveGltYU5vdmFDb25kLVNlbWlib2xkO1xuICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2RkZDtcbiAgICBtYXJnaW46IDAgMCAxMHB4O1xuICAgIHBhZGRpbmctYm90dG9tOiA0cHg7XG4gIH1cbiAgaW1nIHtcbiAgICBtYXgtd2lkdGg6IDEwMCU7XG4gIH1cbiAgYSB7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgIGNvbG9yOiBibGFjaztcbiAgICBoNSB7XG4gICAgICBmb250LWZhbWlseTogUHJveGltYU5vdmFDb25kLVNlbWlib2xkO1xuICAgICAgZm9udC1zaXplOiAxNXB4O1xuICAgICAgbGluZS1oZWlnaHQ6IDE4cHg7XG4gICAgICBtYXJnaW4tdG9wOiAwO1xuICAgICAgcGFkZGluZy10b3A6IDVweDtcbiAgICAgIHBhZGRpbmctcmlnaHQ6IDVweDtcbiAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gICAgfVxuICAgICY6aG92ZXIge1xuICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG4gICAgfVxuICB9XG59XG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGggOiA1OTBweCkge1xuLy8gYm9keSB7XG4vLyAgIH1cbn1cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aCA6IDUwMHB4KSB7XG5ib2R5IHtcbiAgICBoNCB7XG4gICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICBtYXJnaW46IDAgMCAxMHB4O1xuICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgICAgIHBhZGRpbmctYm90dG9tOiA0cHg7XG4gICAgfVxuICAgIGRpdi5zdG9yaWVzIHtcbiAgICAgIGRpdi5zdG9yeSB7XG4gICAgICAgIGg1IHtcbiAgICAgICAgICBmb250LXNpemU6IDEzcHg7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgICAgICAgICBsaW5lLWhlaWdodDogMTVweDtcbiAgICAgICAgICBwYWRkaW5nLXRvcDogNHB4O1xuICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDBweDtcbiAgICAgICAgfVxuICAgICAgICAmOm5vdCg6Zmlyc3QtY2hpbGQpOm5vdCg6bGFzdC1jaGlsZCkge1xuICAgICAgICAgIHBhZGRpbmc6IDAgMy41cHg7XG4gICAgICAgIH1cbiAgICAgICAgJjpsYXN0LWNoaWxkIHtcbiAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiAwcHg7XG4gICAgICAgICAgcGFkZGluZy1sZWZ0OiA3cHg7XG4gICAgICAgIH1cbiAgICAgICAgJjpmaXJzdC1jaGlsZCB7XG4gICAgICAgICAgcGFkZGluZy1sZWZ0OiAwcHg7XG4gICAgICAgICAgcGFkZGluZy1yaWdodDogN3B4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG5cbkBmb250LWZhY2Uge2ZvbnQtZmFtaWx5OiAnUHJveGltYU5vdmFDb25kLVNlbWlib2xkJztzcmM6IHVybCgnaHR0cDovL3gua2luamEtc3RhdGljLmNvbS9hc3NldHMvZm9udHMvcHJveGltYS9Qcm94aW1hTm92YUNvbmRCb2xkLTZlMzAyYzg5NzhiMWJkOWQ0NTNmYmEzMThhMWZhNTcyLndvZmYnKTt9XG5mb3JtIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbmlucHV0IHtcbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgfVxufVxuaW5wdXRbdHlwZT10ZXh0XSB7XG4gIC8vIG1heC13aWR0aDogNDYwcHg7XG4gIHdpZHRoOiAxMDAlO1xuICBtYXJnaW46IDEwcHggMDtcbiAgcGFkZGluZzogMTBweDtcbiAgZm9udC1zaXplOiAxNXB4O1xufVxuXG5pZnJhbWUge1xuICBib3JkZXI6IG5vbmU7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4ucmVzdWx0IHtcbiAgYm9yZGVyLXRvcDogcmdiYSgwLDAsMCwwLjMpIDFweCBkYXNoZWQ7XG4gIGJvcmRlci1ib3R0b206IHJnYmEoMCwwLDAsMC4zKSAxcHggZGFzaGVkO1xuICBoZWlnaHQ6IGF1dG87XG4gIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiBub25lO1xuICB9XG59XG4gLmVtYmVkIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGJvcmRlcjogbm9uZTtcbiAgbWFyZ2luLXRvcDogMTBweDtcbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgfVxuIH1cbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
