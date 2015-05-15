@@ -10,11 +10,16 @@ module.exports = PostView =
       </div>
     """
   render: (post) ->
-    img = post.facebookImage or post.parsedBody.facebookImage
+    if post.facebookImage?
+      imgObj = post.facebookImage
+      img = "<img src=\"#{img_url}/#{imgObj.id}.#{imgObj.format}\" />"
+    else
+      domain = post.permalinkHost.match(/https?:\/\/(\w+\.)?(\w+)\.com/)[2]
+      img = "images/#{domain}_related.png"
     $('.stories').append """
         <div class="story">
           <a href="#{post.permalink}" target="_blank" onclick=recommendedClick("#{post.permalink}")>
-            <img src="#{img_url}/#{img.id}.#{img.format}" />
+            <img src="#{img}" />
             <h5 class="headline">
               #{post.headline}
             </h5>
