@@ -7,7 +7,7 @@ module.exports = PostGetter =
   isLink: (link) ->
     link = @cleanLink(link)
     @newLink(link) or @oldLink(link)
-  newLinkRe: /-(\d{8,11})$/
+  newLinkRe: /-(\d{7,11})$/
   newLink: (link) ->
     link.match(@newLinkRe)
   oldLinkRe: /\.com\/(\d+)\//
