@@ -18,6 +18,7 @@ module.exports = WidgetBuilder =
       </div>
       """
 
+    $('.link_input').focus()
     $('.link_input, .embed, .header_input').on 'click', (e) ->
       $(@).select()
     $('.link_input').on 'keyup', (e) ->
