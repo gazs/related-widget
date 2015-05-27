@@ -17,3 +17,4 @@ else
   PostGetter.getPosts post_ids.reverse(), (posts) ->
     for post in posts
       PostView.render(post)
+

@@ -5,10 +5,15 @@ img_url = "http://i.kinja-img.com/gawker-media/image/upload/c_fill,fl_progressiv
 module.exports = PostView =
   init: (title) ->
     $('body').append """
-      <h4>#{title}</h4>
-      <div class="stories">
+      <div class="container">
+        <h4>#{title}</h4>
+        <div class="stories">
+        </div>
+        <br clear="all">
       </div>
     """
+    $(window).resize =>
+      @resize()
   render: (post) ->
     if post.facebookImage?
       imgObj = post.facebookImage
@@ -26,3 +31,18 @@ module.exports = PostView =
           </a>
         </div>
       """
+    @resize()
+
+
+  resize: ->
+    # console.log 'RESIZE!!!'
+    height = $('.container').height()
+    window.top.postMessage(
+      JSON.stringify(
+        kinja:
+          sourceUrl: window.location.href
+          resizeFrame:
+            height: height
+      ), '*'
+    )
+

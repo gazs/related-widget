@@ -6,7 +6,8 @@ module.exports = {
     server: {
       // Serve up our build folder
       baseDir: dest
-    }
+    },
+    port: 7000
   },
   karma: {
     conf: __dirname + "/../karma.conf.coffee",
