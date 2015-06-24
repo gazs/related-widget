@@ -1,4 +1,5 @@
 @import "scss-mixins";
+@import "flexbox";
 // @import "typography";
 // @import "iframes";
 
@@ -21,11 +22,15 @@ body {
   }
   div.stories {
     max-width: 640px;
+    @include flexbox;
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
   }
   div.story {
     // min-height: 200px;
     max-width: 33.3%;
-    display: inline-block;
+    @include flexbox;
+    margin-bottom: 20px;
     padding: 0;
     float: left;
     &:not(:first-child):not(:last-child) {
