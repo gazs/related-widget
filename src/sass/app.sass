@@ -1,7 +1,5 @@
 @import "scss-mixins";
 @import "flexbox";
-// @import "typography";
-// @import "iframes";
 
 html {
   box-sizing: border-box;
@@ -27,23 +25,12 @@ body {
     @include flex-wrap(wrap);
   }
   div.story {
-    // min-height: 200px;
-    max-width: 33.3%;
+    width: 33.3%;
     @include flexbox;
+    @include flex(1 1 auto);
     margin-bottom: 20px;
     padding: 0;
-    float: left;
-    &:not(:first-child):not(:last-child) {
-      padding: 0 3.5px;
-    }
-    &:last-child {
-      padding-right: 0px;
-      padding-left: 6.5px;
-    }
-    &:first-child {
-      padding-left: 0px;
-      padding-right: 6.5px;
-    }
+    padding-right: 6.5px;
   }
   h4 {
     color: black;
@@ -53,6 +40,7 @@ body {
     border-bottom: 1px solid #ddd;
     margin: 0 0 10px;
     padding-bottom: 4px;
+    margin-right: 6.5px;
   }
   img {
     max-width: 100%;
@@ -75,15 +63,11 @@ body {
     }
   }
 }
-@media only screen and (max-width : 590px) {
-// body {
-//   }
-}
 @media only screen and (max-width : 500px) {
 body {
     h4 {
       font-size: 16px;
-      margin: 0 0 10px;
+      margin: 0 6.5px 10px 0;
       font-weight: normal;
       padding-bottom: 4px;
     }
@@ -95,17 +79,6 @@ body {
           line-height: 15px;
           padding-top: 4px;
           padding-right: 0px;
-        }
-        &:not(:first-child):not(:last-child) {
-          padding: 0 3.5px;
-        }
-        &:last-child {
-          padding-right: 0px;
-          padding-left: 7px;
-        }
-        &:first-child {
-          padding-left: 0px;
-          padding-right: 7px;
         }
       }
     }
@@ -123,7 +96,6 @@ input {
   }
 }
 input[type=text] {
-  // max-width: 460px;
   width: 100%;
   margin: 10px 0;
   padding: 10px;
@@ -139,7 +111,6 @@ iframe {
   border-top: rgba(0,0,0,0.3) 1px dashed;
   border-bottom: rgba(0,0,0,0.3) 1px dashed;
   height: auto;
-  // min-height: 200px;
   &:focus {
     outline: none;
   }
