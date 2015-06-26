@@ -3,9 +3,9 @@ html{box-sizing:border-box}
 body{margin:0;padding:0}
 body div.builder{max-width:700px;margin:10px auto}
 body div.builder .container{max-width:100%}
-body div.stories{max-width:640px;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-moz-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
-body div.story{width:33.3%;-webkit-flex:1 1 auto;-moz-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;margin-bottom:20px;padding:0 10px 0 0}
-body h4{color:#000;font-weight:400;font-family:ProximaNovaCond-Semibold;font-size:20px;border-bottom:1px solid #ddd;margin:0 10px 10px 0;padding-bottom:4px}
+body div.stories{width:100%;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-moz-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:justify;-webkit-justify-content:space-between;-moz-justify-content:space-between;justify-content:space-between}
+body div.story{max-width:32.2%;width:32.2%;-webkit-flex:1 1 auto;-moz-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;margin-bottom:20px;padding:0}
+body h4{color:#000;font-weight:400;font-family:ProximaNovaCond-Semibold;font-size:20px;border-bottom:1px solid #ddd;margin:0 0 10px;padding-bottom:4px}
 body img{max-width:100%}
 body a{text-decoration:none;color:#000}
 body a h5{font-family:ProximaNovaCond-Semibold;font-size:15px;line-height:18px;margin-top:0;margin-bottom:0;padding-top:5px;padding-right:5px;font-weight:400}
