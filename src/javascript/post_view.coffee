@@ -36,7 +36,7 @@ module.exports = PostView =
 
   resize: ->
     # console.log 'RESIZE!!!'
-    height = $('.container').height() + 30
+    height = $('.container').height()
     window.top.postMessage(
       JSON.stringify(
         kinja:
