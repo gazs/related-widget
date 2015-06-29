@@ -3,6 +3,7 @@ $ = require 'jquery'
 img_url = "http://i.kinja-img.com/gawker-media/image/upload/c_fill,fl_progressive,g_center,h_180,q_80,w_320"
 
 module.exports = PostView =
+  width: $(window).width()
   init: (title) ->
     $('body').append """
       <div class="container">
@@ -13,7 +14,7 @@ module.exports = PostView =
       </div>
     """
     $(window).resize =>
-      @resize()
+      @resize() unless @width is $(window).width()
   render: (post) ->
     if post.facebookImage?
       imgObj = post.facebookImage
@@ -32,10 +33,12 @@ module.exports = PostView =
         </div>
       """
     @resize()
+    setTimeout @resize, 1000
 
 
   resize: ->
     # console.log 'RESIZE!!!'
+    @width = $(window).width()
     height = $('.container').height()
     window.top.postMessage(
       JSON.stringify(
