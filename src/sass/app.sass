@@ -1,4 +1,5 @@
 @import "scss-mixins";
+@import "kinja_fonts";
 @import "flexbox";
 
 html {
@@ -36,7 +37,8 @@ body {
   h4 {
     color: black;
     font-weight: normal;
-    font-family: ProximaNovaCond-Semibold;
+    font-family: ProximaNovaCond;
+    font-weight: bold;
     font-size: 20px;
     border-bottom: 1px solid #ddd;
     margin: 0 0 10px;
@@ -49,14 +51,14 @@ body {
     text-decoration: none;
     color: black;
     h5 {
-      font-family: ProximaNovaCond-Semibold;
+      font-family: ProximaNovaCond;
       font-size: 15px;
       line-height: 18px;
       margin-top: 0;
       margin-bottom: 0;
       padding-top: 5px;
       padding-right: 5px;
-      font-weight: normal;
+      font-weight: bold;
     }
     &:hover {
       text-decoration: underline;
@@ -85,7 +87,6 @@ body {
   }
 }
 
-@font-face {font-family: 'ProximaNovaCond-Semibold';src: url('http://x.kinja-static.com/assets/fonts/proxima/ProximaNovaCondBold-6e302c8978b1bd9d453fba318a1fa572.woff');}
 form {
   width: 100%;
 }
