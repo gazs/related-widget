@@ -5,3 +5,4 @@ node_modules
 src/specs/compiled_js
 coverage
 build
+config.yml
