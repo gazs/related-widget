@@ -6,6 +6,10 @@
     "type": "git",
     "url": "git://github.com/greypants/gulp-starter.git"
   },
+  "scripts": {
+    "start": "gulp",
+    "deploy": "./bin/build"
+  },
   "//": [
     "The following 'underscore' example demonstrates exposing a module included ",
     "by another module. If you were to npm install underscore separately and ",
