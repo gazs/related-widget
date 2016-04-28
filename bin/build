@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir -p build
+
+echo "Building"
+gulp production
+echo "[DONE]"
+echo "Deploying to S3"
+rake aws:deploy
+echo "[DONE]"
