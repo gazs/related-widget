@@ -13,10 +13,10 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    var parent = document.referrer;
+    var p = document.referrer;
 
     window.ga('create', 'UA-142218-45', 'auto');
-    window.ga('send', 'pageview', {'dimension1': parent});
+    window.ga('send', 'pageview', {'dimension1': p});
 
     var recommendedClick = function(url) {
         window.ga('send', 'event', 'recommended', 'click', url);
@@ -25,5 +25,7 @@
   </script>
   <body>
     <script src="global.js"></script>
+    <!-- <script type="text/javascript" src="http://bigboard.gawker&#45;labs.com/js/heartbeat.bundle.js"></script> -->
+    <!-- <script type="text/javascript" src="heartbeat.js"></script> -->
   </body>
 </html>

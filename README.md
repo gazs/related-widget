@@ -7,7 +7,7 @@ gulp
 
 ### Before deploying
 ```bash
-gulp production
+npm run deploy
 ```
 
 **When deploying to CloudFront:**

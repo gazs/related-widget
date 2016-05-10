@@ -4,6 +4,7 @@ mkdir -p build
 
 echo "Building"
 gulp production
+cp -f src/htdocs/index.html build/
 echo "[DONE]"
 echo "Deploying to S3"
 rake aws:deploy

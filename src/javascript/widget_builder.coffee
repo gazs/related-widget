@@ -25,7 +25,7 @@ module.exports = WidgetBuilder =
       $(@).focus()
     $('.header_input').on 'change', (e) =>
       iframe = """
-          <iframe src="#{window.location.href}?posts=#{@post_ids.reverse().join(',')}&title=#{$('.header_input').val() or "Recommended stories"}" width="100%" height="270" class="custom recommended" id="editorial_labs_recommended_stories_widget"></iframe>
+          <iframe src="#{@url()}?posts=#{@post_ids.reverse().join(',')}&title=#{$('.header_input').val() or "Recommended stories"}" width="100%" height="270" class="custom recommended" id="editorial_labs_recommended_stories_widget"></iframe>
         """
       $('.result').html(iframe)
       $('.embed').val(iframe)
@@ -39,7 +39,7 @@ module.exports = WidgetBuilder =
           post_id = PostGetter.postId(link)
           @post_ids.push post_id
           iframe = """
-            <iframe src="#{window.location.href}?posts=#{@post_ids.reverse().join(',')}&title=#{encodeURIComponent $('.header_input').val() or "Recommended stories"}" width="100%" height="270" class="custom recommended" id="editorial_labs_recommended_stories_widget"></iframe>
+            <iframe src="#{@url()}?posts=#{@post_ids.reverse().join(',')}&title=#{encodeURIComponent $('.header_input').val() or "Recommended stories"}" width="100%" height="270" class="custom recommended" id="editorial_labs_recommended_stories_widget"></iframe>
           """
         $('.result').html(iframe)
         $('.embed').val(iframe)
@@ -47,3 +47,9 @@ module.exports = WidgetBuilder =
         setTimeout ->
           $('.link_input').val("").focus()
         , 1000
+
+  url: ->
+    host = "//#{window.location.hostname}"
+    unless window.location.port == ""
+      host = "#{host}:#{window.location.port}"
+    host
