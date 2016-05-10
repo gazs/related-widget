@@ -52,4 +52,4 @@ module.exports = WidgetBuilder =
     host = "//#{window.location.hostname}"
     unless window.location.port == ""
       host = "#{host}:#{window.location.port}"
-    host
+    "#{host}/related-widget/"
