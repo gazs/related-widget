@@ -1,6 +1,6 @@
 $ = require 'jquery'
 
-img_url = "http://i.kinja-img.com/gawker-media/image/upload/c_fill,fl_progressive,g_center,h_180,q_80,w_320"
+img_url = "https://i.kinja-img.com/gawker-media/image/upload/c_fill,fl_progressive,g_center,h_180,q_80,w_320"
 
 module.exports = PostView =
   width: $(window).width()
